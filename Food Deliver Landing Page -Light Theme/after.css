@@ -1,0 +1,183 @@
+/* CSS RESET */
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Logo */
+#logo{
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+#logo img{
+    width: 60px;
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    margin: 2px 33px;
+    padding:8px 12px;
+    border-radius: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: gray;
+}
+
+.head{
+    /* margin: 20px 20px; */
+    padding: 120px 0px;
+}
+#home::before{
+    content:"";
+    position: absolute;
+    background: url('./backfood2.jpg') no-repeat center center;
+    height: 450px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home p{
+    font-size: 1.8rem;
+    padding: 20px;
+}
+
+#services{
+    color: black;
+    background-color: rgba(151, 151, 151, 0.897);
+    font-size: 20px;
+    padding: 20px 0px;
+}
+#services .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px;
+    margin: 2px 2px;
+
+}
+#services .box{
+    border: 2px solid white;
+    padding: 26px 2px;
+    margin: 0px 0px;
+}
+#services h3{
+    font-weight: bolder;
+    font-size: 23px;
+    text-decoration-line: underline;
+}
+#services .box p{
+    margin: 2px 2px;
+    padding: 6px 20px;
+    font-weight: bold;
+}
+
+#services .box img{
+    display: block;
+    margin: auto;
+    width:130px;
+    border-radius: 20px;
+}
+
+#about p{
+    padding: 20px;
+}
+#about .spon{
+    margin: 2px 2px;
+    padding:2px 5px;
+    text-align: center;
+}
+#about .spon img{
+    margin:2px 12px;
+    padding: 2px 52px;
+}
+
+#contact::before{
+    content:"";
+    background: url('./cus.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 54%;
+    width:100%;
+    z-index: -1;
+}
+
+.cont{
+    margin: 35px 20px;
+    padding: 2px 2px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact label{
+    margin: 10px 2px;
+    padding: 2px 2px;
+}
+#contact input{
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 2px 6px;
+}
+
+#foot{
+    background-color: black;
+    color: white;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 2.5rem;
+}
+.h-secondary{
+    font-size:1.3rem;
+    font-weight: bolder;
+
+}
+.center{
+    text-align: center;
+}
+.btn{
+    font-size: 1.2rem;
+    padding: 2px 2px;
+    display: block;
+    width:120px;
+    margin: auto;
+    font-weight: 700;
+    border-radius: 18px;
+}
+.btn:hover{
+    color: black;
+    background-color: lightgray;
+}

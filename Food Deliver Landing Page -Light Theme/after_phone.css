@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 2px 4px;
+    margin: 2px 5px;
+}
+#logo{
+    text-align: center;
+}
+#home::before{
+    height: 720px;
+}
+.head{
+    margin: 0px;
+    padding:140px 2px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.h-primary{
+    font-size: 2rem;
+}
+.h-secondary{
+    font-size: 1rem;
+}
